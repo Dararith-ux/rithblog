@@ -12,7 +12,7 @@
   </head>
   <body class="h-[100vh] bg-gradient-to-b from-[#0f172a] to-[#0f172a]">
     <header
-      class="h-[8vh] w-[100%] grid grid-cols-[1fr_2fr_1fr] justify-center p-[20px] text-gray-300"
+      class="h-[auto] w-[100%] grid 2xl:grid-cols-[1fr_2fr_1fr] xl:grid-cols-[1fr_2fr_1fr] lg:grid-cols-1 lg:gap-y-[20px] md:grid-cols-1 md:gap-y-[15px] sm:grid-cols-1 sm:gap-y-[12px] gap-y-[10px] justify-center p-[20px] text-gray-300 "
     >
       <div class="flex justify-center items-center">
         <h1
@@ -23,23 +23,23 @@
       </div>
       <nav class="flex items-center justify-center">
         <ul
-          class="list-none flex gap-[80px] text-[20px] items-center uppercase font-bold cursor-pointer"
+          class="list-none flex 2xl:gap-[80px] xl:gap-[40px] lg:gap-[80px] md:gap-[60px] sm:gap-[30px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[12px] gap-[10px] items-center uppercase font-bold cursor-pointer"
         >
-          <li>
+          <li class="inline-flex items-center gap-[10px]">
             Home <i class="fa-solid fa-caret-down" style="color: #f5f4fb"></i>
           </li>
-          <li>
-            About me
+          <li class="inline-flex items-center gap-[10px]"">
+            <span class="inline-flex">About</span>me
             <i class="fa-solid fa-caret-down" style="color: #f5f4fb"></i>
           </li>
-          <li>
+          <li class="inline-flex items-center gap-[10px]"">
             Category
             <i class="fa-solid fa-caret-down" style="color: #f5f4fb"></i>
           </li>
-          <li>
+          <li class="inline-flex items-center gap-[10px]"">
             Pages <i class="fa-solid fa-caret-down" style="color: #f5f4fb"></i>
           </li>
-          <li>
+          <li class="inline-flex items-center gap-[10px]"">
             Contact
             <i class="fa-solid fa-caret-down" style="color: #f5f4fb"></i>
           </li>
@@ -51,7 +51,7 @@
           style="color: #f3f1f9"
         ></i>
         <button
-          class="w-[150px] p-[10px] bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] rounded-[10px] text-[22px] font-bold transition-all duration-300 hover:from-[#0A8DBD] hover:to-[#089F9C]"
+          class="2xl:w-[150px] xl:w-[130px] lg:w-[120px] p-[10px] bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] rounded-[10px] text-[22px] font-bold transition-all duration-300 hover:from-[#0A8DBD] hover:to-[#089F9C]"
         >
           Subscribe
         </button>
@@ -72,7 +72,7 @@
             </p>
           </div>
           <div class="flex justify-center items-center">
-            <img class="w-[800px]" 
+            <img class="w-[500px] " 
             src="https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-coder-clipart-boy-working-with-computer-game-on-the-desk-vector-png-image_6804917.png" alt="">
           </div>
         </div>
