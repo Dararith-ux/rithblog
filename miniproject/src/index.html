@@ -12,7 +12,7 @@
   </head>
   <body class="h-[100vh] bg-gradient-to-b from-[#0f172a] to-[#0f172a]">
     <header
-      class="h-[auto] w-[100%] grid 2xl:grid-cols-[1fr_2fr_1fr] xl:grid-cols-[1fr_2fr_1fr] lg:grid-cols-1 lg:gap-y-[20px] md:grid-cols-1 md:gap-y-[15px] sm:grid-cols-1 sm:gap-y-[12px] gap-y-[10px] justify-center p-[20px] text-gray-300 "
+      class="bg-gradient-to-b from-[#0f172a] to-[#0f172a] shadow-[0px_5px_0px_-1px_rgba(0,_0,_0,_0.8)] sticky top-0 h-[auto] w-[100%] grid 2xl:grid-cols-[1fr_2fr_1fr] xl:grid-cols-[1fr_2fr_1fr] lg:grid-cols-1 lg:gap-y-[20px] md:grid-cols-1 md:gap-y-[15px] sm:grid-cols-1 sm:gap-y-[12px] gap-y-[10px] justify-center p-[20px] text-gray-300 "
     >
       <div class="flex justify-center items-center">
         <h1
@@ -51,29 +51,37 @@
           style="color: #f3f1f9"
         ></i>
         <button
-          class="2xl:w-[150px] xl:w-[130px] lg:w-[120px] p-[10px] bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] rounded-[10px] text-[22px] font-bold transition-all duration-300 hover:from-[#0A8DBD] hover:to-[#089F9C]"
+          class="2xl:w-[150px] xl:w-[130px] lg:w-[120px] p-[10px] bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] rounded-[10px] text-[22px] font-bold transition-all duration-300 hover:from-[#0A8DBD] hover:to-[#089F9C]  cursor-pointer"
         >
           Subscribe
         </button>
       </div>
     </header>
-    <main class="pt-[100px]">
-      <div class="banner px-[100px]">
-        <div class="grid grid-cols-2  justify-center">
-          <div class="flex flex-col pt-[150px] ">
-            <h2 class="text-[30px] text-gray-300">Hello Everyone! </h2>
-            <h1 class="text-[80px] font-bold bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] bg-clip-text text-transparent">HI, I'M CODER</h1>
-            <p class="text-[25px] text-gray-200">
+    <main>
+      <div class="banner px-[150px]">
+        <div class="grid justify-center 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1">
+          <div class="flex flex-col 2xl:pt-[200px] xl:pt-[120px] lg:pt-[100px]">
+            <h2 class="2xl:text-[30px] xl:text-[28px] lg:text-[25px] text-gray-300">Hello Everyone! </h2>
+            <h1 class="2xl:text-[80px] xl:text-[65px] lg:text-[45px] font-bold bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] bg-clip-text text-transparent">HI, I'M CODER</h1>
+            <p class="2xl:text-[25px] xl:text-[22px] lg:text-[18px] text-gray-200">
               I use animation to simplify experiences and guide users through
               interactions. It’s not just for decoration but enhances usability,
               making interfaces intuitive. Every motion serves a
               purpose—providing feedback, directing attention, and creating a
               seamless flow.
             </p>
+            <div class="flex gap-[10px] justify-between mt-[50px] p-[25px] border-[3px] border-[#0DABE6] rounded-[10px] bg-white/10  2xl:w-[600px] xl:w-[450px] lg:w-ful hover:shadow-[0px_0px_19px_3px_rgba(77,255,252,0.94)]">
+              <input class="Z-100 2xl:w-[350px] xl:w-[300px] lg:w-full border-none outline-none focus:outline-none placeholder:text-white text-white 2xl:text-[20px] xl:text-[18px]" type="text" placeholder="Enter your email address here">
+              <button
+          class="w-[150px] p-[10px] cursor-pointer bg-gradient-to-r from-[#0DABE6] to-[#0BCFD2] rounded-[10px] text-[22px] font-bold text-white transition-all duration-300 hover:from-[#0A8DBD] hover:to-[#089F9C]"
+        >
+          Subscribe
+        </button>
+            </div>
           </div>
           <div class="flex justify-center items-center">
-            <img class="w-[500px] " 
-            src="https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-coder-clipart-boy-working-with-computer-game-on-the-desk-vector-png-image_6804917.png" alt="">
+            <img class="2xl:w-[1000px] xl:w-[800px] lg:w-[700px]" 
+            src="https://static.vecteezy.com/system/resources/thumbnails/011/153/363/small_2x/3d-web-developer-working-on-project-illustration-png.png" alt="">
           </div>
         </div>
       </div>
